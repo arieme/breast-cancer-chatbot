@@ -1,16 +1,25 @@
 # Core
-streamlit==1.28.0
-langchain==0.0.346
-chromadb==0.4.15
-sentence-transformers==2.2.2
+streamlit>=1.28.0
 
-# Document processing
-pypdf==3.17.0
-python-docx==1.1.0
+# LangChain - versions spécifiques
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-core>=0.1.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.2
+
+# Document Processing
+pypdf>=3.0.0
+pymupdf>=1.23.0  # Alternative à pypdf
 
 # Utilities
-python-dotenv==1.0.0
-requests==2.31.0
+python-dotenv>=1.0.0
+requests>=2.31.0
 
-# Testing
-pytest==7.4.2
+# Runtime dependencies
+numpy>=1.21.0
+typing-extensions>=4.0.0
